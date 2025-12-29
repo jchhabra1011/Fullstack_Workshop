@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Counter</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="counter.css">
+
+    <!-- JS File -->
+    <script src="counter.js" defer></script>
+</head>
+
+<body>
+
+<div class="container">
+    <div id="count">0</div>
+
+    <div class="buttons">
+        <button onclick="decrement()">-</button>
+        <button onclick="reset()">Reset</button>
+        <button onclick="increment()">+</button>
+    </div>
+
+    <div class="step-section">
+        <p>Step:</p>
+        <button onclick="setStep(1)">1</button>
+        <button onclick="setStep(5)">5</button>
+        <button onclick="setStep(10)">10</button>
+    </div>
+</div>
+
+</body>
+</html>

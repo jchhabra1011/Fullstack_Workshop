@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Practice</title>
+    <style>
+        .hidden { display: none; }
+        .invalid { border: 2px solid red; }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <h1>My App</h1>
+
+    <a class="nav-link active">Home</a>
+    <a class="nav-link">About</a>
+    <a class="nav-link">Contact</a>
+
+    <div class="card" data-id="1">
+        <p>Card 1</p>
+    </div>
+
+    <div class="card" data-id="2">
+        <p>Card 2</p>
+    </div>
+</div>
+
+<hr>
+
+<button id="btn">Click Me</button>
+
+<form id="search-form">
+    <input type="text" id="search-input">
+    <button type="submit">Search</button>
+</form>
+
+<ul id="todo-list">
+    <li>Task 1 <button class="delete">X</button></li>
+    <li>Task 2 <button class="delete">X</button></li>
+</ul>
+
+<hr>
+
+<div id="counter">
+    <button id="decrement">-</button>
+    <span id="count">0</span>
+    <button id="increment">+</button>
+</div>
+
+<button id="toggle-btn">Show Details</button>
+<div id="details" class="hidden">
+    <p>Hidden content</p>
+</div>
+
+<form id="signup-form">
+    <input type="text" id="username" placeholder="Username">
+    <span id="username-error"></span><br><br>
+
+    <input type="email" id="email" placeholder="Email">
+    <span id="email-error"></span><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<script src="dom-events.js"></script>
+</body>
+</html>
