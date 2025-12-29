@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Comparison - Laptops</title>
+  <link rel="stylesheet" href="comparison.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>Product Comparison - Laptops</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Support</a>
+  </nav>
+</header>
+<aside class="filters">
+  <form>
+    <fieldset>
+      <legend>Filter Products</legend>
+
+```
+  <div class="filter-group">
+    <span>Brand:</span>
+    <label><input type="checkbox"> Apple</label>
+    <label><input type="checkbox"> Dell</label>
+    <label><input type="checkbox"> HP</label>
+    <label><input type="checkbox"> Lenovo</label>
+  </div>
+
+  <div class="filter-group">
+    <label>Max Price: $<output>2000</output></label>
+    <input type="range" min="500" max="3000" value="2000">
+  </div>
+
+  <div class="filter-group">
+    <label>Sort By</label>
+    <select>
+      <option>Price: Low to High</option>
+      <option>Price: High to Low</option>
+      <option>Rating</option>
+    </select>
+  </div>
+
+  <button type="submit">Apply</button>
+  <button type="reset">Reset</button>
+</fieldset>
+```
+
+  </form>
+</aside>
+
+<!-- COMPARISON TABLE -->
+
+<section class="comparison">
+  <table class="comparison-table">
+    <caption>Laptop Comparison Chart</caption>
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>MacBook Pro</th>
+        <th>Dell XPS</th>
+        <th>HP Spectre</th>
+        <th>ThinkPad X1</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><th>Price</th><td>$1999</td><td>$1499</td><td>$1399</td><td>$1649</td></tr>
+      <tr><th>Display</th><td>14.2" XDR</td><td>15.6" OLED</td><td>13.5" OLED</td><td>14" IPS</td></tr>
+      <tr><th>Processor</th><td>M3 Pro</td><td>i7</td><td>i7</td><td>i7</td></tr>
+      <tr><th>RAM</th><td>18GB</td><td>16GB</td><td>16GB</td><td>16GB</td></tr>
+      <tr><th>Battery</th><td><meter min="0" max="20" value="17"></meter></td><td><meter min="0" max="20" value="13"></meter></td><td><meter min="0" max="20" value="15"></meter></td><td><meter min="0" max="20" value="15"></meter></td></tr>
+      <tr><th>Touchscreen</th><td>❌</td><td>✅</td><td>✅</td><td>❌</td></tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Action</th>
+        <td><button>Add to Cart</button></td>
+        <td><button>Add to Cart</button></td>
+        <td><button>Add to Cart</button></td>
+        <td><button>Add to Cart</button></td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+
+<!-- PRODUCT CARDS -->
+
+<section class="product-details">
+  <article class="product-card">
+    <h3>MacBook Pro 14"</h3>
+    <p class="price">$1999</p>
+
+```
+<details>
+  <summary>Specifications</summary>
+  <dl>
+    <dt>Processor</dt><dd>M3 Pro</dd>
+    <dt>Memory</dt><dd>18GB</dd>
+    <dt>Storage</dt><dd>512GB SSD</dd>
+  </dl>
+</details>
+
+<details>
+  <summary>What's in the Box</summary>
+  <ul>
+    <li>Laptop</li>
+    <li>Charger</li>
+    <li>USB-C Cable</li>
+  </ul>
+</details>
+```
+
+  </article>
+</section>
+
+<!-- REVIEWS -->
+
+<section class="reviews">
+  <h2>Customer Reviews</h2>
+
+  <article class="review">
+    <header>
+      <strong>John D.</strong>
+      <time datetime="2024-01-15">Jan 15, 2024</time>
+    </header>
+    <blockquote>
+      <p>Excellent performance and battery life.</p>
+    </blockquote>
+  </article>
+
+  <form class="review-form">
+    <h3>Write a Review</h3>
+
+```
+<fieldset>
+  <legend>Rating</legend>
+  <label><input type="radio" name="rating"> ★★★★★</label>
+  <label><input type="radio" name="rating"> ★★★★☆</label>
+  <label><input type="radio" name="rating"> ★★★☆☆</label>
+</fieldset>
+
+<label>Review Title</label>
+<input type="text" required>
+
+<label>Review</label>
+<textarea rows="4"></textarea>
+
+<button type="submit">Submit Review</button>
+```
+
+  </form>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Directory</title>
+</head>
+
+<body>
+    <header>
+        <h1>ABC Company</h1>
+        <p>Employee Directory</p>
+    </header>
+    <table border="1" aria-label="Company Employee Directory">
+        <caption>
+            Company Employee Directory - 2024
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Photo</th>
+                <th scope="col">Name</th>
+                <th scope="col">Department</th>
+                <th scope="col">Position</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Start Date</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr data-department="engineering" data-status="active">
+                <td>EMP001</td>
+                <td>
+                    <img src="https://via.placeholder.com/50" alt="John Doe photo">
+                </td>
+                <td>John Doe</td>
+                <td>Engineering</td>
+                <td>Senior Developer</td>
+                <td>
+                    <a href="mailto:john@company.com">john@company.com</a>
+                </td>
+                <td>
+                    <a href="tel:+911234567890">123-456-7890</a>
+                </td>
+                <td>
+                    <time datetime="2022-03-15">15 Mar 2022</time>
+                </td>
+                <td>
+                    <span class="status active">Active</span>
+                </td>
+            </tr>
+
+            <tr data-department="marketing" data-status="leave">
+                <td>EMP002</td>
+                <td>
+                    <img src="https://via.placeholder.com/50" alt="Jane Smith photo">
+                </td>
+                <td>Jane Smith</td>
+                <td>Marketing</td>
+                <td>Manager</td>
+                <td>
+                    <a href="mailto:jane@company.com">jane@company.com</a>
+                </td>
+                <td>
+                    <a href="tel:+919876543210">987-654-3210</a>
+                </td>
+                <td>
+                    <time datetime="2021-07-01">01 Jul 2021</time>
+                </td>
+                <td>
+                    <span class="status leave">On Leave</span>
+                </td>
+            </tr>
+
+            <tr data-department="hr" data-status="remote">
+                <td>EMP003</td>
+                <td>
+                    <img src="https://via.placeholder.com/50" alt="Aman Gupta photo">
+                </td>
+                <td>Aman Gupta</td>
+                <td>HR</td>
+                <td>Executive</td>
+                <td>
+                    <a href="mailto:aman@company.com">aman@company.com</a>
+                </td>
+                <td>
+                    <a href="tel:+918888777666">888-877-7666</a>
+                </td>
+                <td>
+                    <time datetime="2023-01-20">20 Jan 2023</time>
+                </td>
+                <td>
+                    <span class="status remote">Remote</span>
+                </td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="9">
+                    Total Employees: 3 |
+                    Engineering: 1 |
+                    Marketing: 1 |
+                    HR: 1
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
