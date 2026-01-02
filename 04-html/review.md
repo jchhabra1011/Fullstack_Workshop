@@ -1,7 +1,7 @@
 # Review: 04-html
 
 **Exercise:** Exercise
-**Review Date:** 2026-01-02 13:58
+**Review Date:** 2026-01-02 15:43
 
 ---
 
@@ -15,8 +15,8 @@ Unable to check - no exercise file
 
 ### Required Files
 
-- ❌ Missing: `portfolio-v1.html`
-- ❌ Missing: `portfolio-v2.html`
+- ✅ Found: `portfolio-v1.html`
+- ✅ Found: `portfolio-v2.html`
 - ✅ Found: `portfolio-v2.css`
 - ✅ Found: `portfolio-v3.html`
 
@@ -40,8 +40,8 @@ Unable to check - no exercise file
 
    **Score: 5/5**
 
-📄 **porfolio-v1.html**
-   Path: `04-html/Excercise/porfolio-v1.html`
+📄 **portfolio-v1.html**
+   Path: `04-html/Excercise/portfolio-v1.html`
    Lines: 112
 
     - ✅ Has `<!DOCTYPE html>`
@@ -54,8 +54,14 @@ Unable to check - no exercise file
 
    **Score: 4/5**
 
-📄 **porfolio-v2.html**
-   Path: `04-html/Excercise/porfolio-v2.html`
+📄 **portfolio-v2.css**
+   Path: `04-html/Excercise/portfolio-v2.css`
+   Lines: 166
+
+   - ✅ CSS file present
+
+📄 **portfolio-v2.html**
+   Path: `04-html/Excercise/portfolio-v2.html`
    Lines: 112
 
     - ✅ Has `<!DOCTYPE html>`
@@ -67,12 +73,6 @@ Unable to check - no exercise file
     - ✅ Links to CSS stylesheet
 
    **Score: 4/5**
-
-📄 **portfolio-v2.css**
-   Path: `04-html/Excercise/portfolio-v2.css`
-   Lines: 166
-
-   - ✅ CSS file present
 
 📄 **portfolio-v3.html**
    Path: `04-html/Excercise/portfolio-v3.html`
@@ -99,7 +99,7 @@ Unable to check - no exercise file
 
    **Score: 5/5**
 
-### Topic Score: 33 / 45 (73%)
+### Topic Score: 43 / 45 (95%)
 
 ---
 
