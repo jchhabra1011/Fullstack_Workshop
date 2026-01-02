@@ -1,13 +1,13 @@
 # Review: 04-html
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-31 10:56
+**Review Date:** 2026-01-02 13:58
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 8
+**Files submitted:** 7
 
 ### Relevance Check
 
@@ -17,13 +17,19 @@ Unable to check - no exercise file
 
 - ❌ Missing: `portfolio-v1.html`
 - ❌ Missing: `portfolio-v2.html`
-- ❌ Missing: `portfolio-v2.css`
-- ❌ Missing: `portfolio-v3.html`
+- ✅ Found: `portfolio-v2.css`
+- ✅ Found: `portfolio-v3.html`
 
 ### Code Review
 
-📄 **employee.html**
-   Path: `04-html/challenges/Employee/employee.html`
+📄 **comparison.css**
+   Path: `04-html/challenges/Product Comparison/comparison.css`
+   Lines: 143
+
+   - ✅ CSS file present
+
+📄 **employee-table.html**
+   Path: `04-html/Excercise/employee-table.html`
    Lines: 112
 
     - ✅ Has `<!DOCTYPE html>`
@@ -34,14 +40,56 @@ Unable to check - no exercise file
 
    **Score: 5/5**
 
-📄 **comparison.css**
-   Path: `04-html/challenges/Product Comparison/comparison.css`
-   Lines: 143
+📄 **porfolio-v1.html**
+   Path: `04-html/Excercise/porfolio-v1.html`
+   Lines: 112
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ❌ Images missing `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+    - 📌 **Version 1 (Raw HTML)**
+    - ⚠️ V1 should be raw HTML only (no CSS/Bootstrap)
+
+   **Score: 4/5**
+
+📄 **porfolio-v2.html**
+   Path: `04-html/Excercise/porfolio-v2.html`
+   Lines: 112
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ❌ Images missing `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+    - 📌 **Version 2 (HTML + CSS3)**
+    - ✅ Links to CSS stylesheet
+
+   **Score: 4/5**
+
+📄 **portfolio-v2.css**
+   Path: `04-html/Excercise/portfolio-v2.css`
+   Lines: 166
 
    - ✅ CSS file present
 
-📄 **comparison.html**
-   Path: `04-html/challenges/Product Comparison/comparison.html`
+📄 **portfolio-v3.html**
+   Path: `04-html/Excercise/portfolio-v3.html`
+   Lines: 65
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+    - 📌 **Version 3 (Bootstrap)**
+    - ✅ Uses Bootstrap framework
+    - ✅ Uses Bootstrap classes
+
+   **Score: 5/5**
+
+📄 **product-comparison.html**
+   Path: `04-html/Excercise/product-comparison.html`
    Lines: 159
 
     - ✅ Has `<!DOCTYPE html>`
@@ -51,55 +99,7 @@ Unable to check - no exercise file
 
    **Score: 5/5**
 
-📄 **product.css**
-   Path: `04-html/challenges/product/product.css`
-   Lines: 114
-
-   - ✅ CSS file present
-
-📄 **product.html**
-   Path: `04-html/challenges/product/product.html`
-   Lines: 27
-
-    - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
-    - ✅ Images have `alt` attributes
-    - ✅ Has viewport meta tag (mobile-friendly)
-    - 💡 Add `lang` attribute to `<html>` tag
-
-   **Score: 3/5**
-
-📄 **porfolio.html**
-   Path: `04-html/Excercise/portfoliov1/porfolio.html`
-   Lines: 112
-
-    - ✅ Has `<!DOCTYPE html>`
-    - ✅ Uses semantic HTML5 tags
-    - ❌ Images missing `alt` attributes
-    - ✅ Has viewport meta tag (mobile-friendly)
-    - ✅ Has `lang` attribute
-
-   **Score: 4/5**
-
-📄 **porfolio.html**
-   Path: `04-html/Excercise/portfoliov2/porfolio.html`
-   Lines: 112
-
-    - ✅ Has `<!DOCTYPE html>`
-    - ✅ Uses semantic HTML5 tags
-    - ❌ Images missing `alt` attributes
-    - ✅ Has viewport meta tag (mobile-friendly)
-    - ✅ Has `lang` attribute
-
-   **Score: 4/5**
-
-📄 **portfolio.css**
-   Path: `04-html/Excercise/portfoliov2/portfolio.css`
-   Lines: 166
-
-   - ✅ CSS file present
-
-### Topic Score: 21 / 45 (46%)
+### Topic Score: 33 / 45 (73%)
 
 ---
 
